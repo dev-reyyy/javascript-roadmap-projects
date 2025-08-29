@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>03 Counter App</title>
+
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+	<body>
+		<div class="project-title">
+			<span>Project 03:</span>
+			<h1>Counter App</h1>
+		</div>
+		<div class="card">
+			<div class="container">
+				<button type="button" class="btn bg-danger" id="resetBtn">Reset</button>
+
+				<div class="btn-container">
+					<button type="button" class="btn-icon bg-secondary" id="decrementBtn">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke-width="1.5"
+							stroke="currentColor"
+							class="size-6"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								d="M5 12h14"
+							/>
+						</svg>
+					</button>
+
+					<input
+						type="number"
+						class="counter-field"
+						name="counterField"
+						id="counterField"
+						value="0"
+						step="1"
+						min="0"
+					/>
+
+					<button type="button" class="btn-icon bg-secondary" id="incrementBtn">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke-width="1.5"
+							stroke="currentColor"
+							class="size-6"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								d="M12 4.5v15m7.5-7.5h-15"
+							/>
+						</svg>
+					</button>
+				</div>
+			</div>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
