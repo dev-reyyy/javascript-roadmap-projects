@@ -1,0 +1,108 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 24px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+	-moz-appearance: textfield;
+}
+
+.project-title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 4px;
+}
+
+.card {
+	width: 400px;
+	padding: 24px;
+	background-color: #f8f8f8;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 24px;
+	border-radius: 24px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	gap: 12px;
+}
+.btn-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+}
+.btn {
+	height: 32px;
+	padding: 4px 12px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+.btn-icon {
+	width: 32px;
+	height: 32px;
+	padding: 4px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.bg-secondary {
+	background-color: #525252;
+	color: white;
+}
+.bg-secondary:hover {
+	background-color: #3b3b3b;
+}
+
+.bg-danger {
+	background-color: #ff4d4d;
+	color: white;
+}
+.bg-danger:hover {
+	background-color: #e04343;
+}
+
+.counter-field {
+	width: 100px;
+	height: 32px;
+	padding: 4px 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-size: 16px;
+}
+.counter-field:focus {
+	outline: none;
+	border-color: #007bff;
+	box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
