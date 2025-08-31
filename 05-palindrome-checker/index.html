@@ -9,6 +9,28 @@
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
+		<div class="container flex-col" style="gap: 24px">
+			<div class="flex flex-col items-center">
+				<span>Project 05</span>
+				<h1>Palindrome Checker</h1>
+			</div>
+			<div class="card">
+				<div class="input-group">
+					<textarea type="text" name="inputText" id="inputText" rows="4"/></textarea>
+					<span class="caption"
+						>Type a word or phrase and I’ll check if it reads the same
+						backward.</span
+					>
+				</div>
+
+				<button class="btn btn-primary w-full" id="checkBtn">Check</button>
+
+				<div class="flex justify-center items-center w-full" id="resultMsg" style="display: none; gap: 4px;">
+                    <!-- <span id="resultMsg" style="display: none; font-weight: 600;"></span> -->
+                </div>
+			</div>
+		</div>
+
 		<script src="script.js"></script>
 	</body>
 </html>
