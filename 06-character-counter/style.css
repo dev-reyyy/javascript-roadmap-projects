@@ -1,0 +1,31 @@
+.card {
+	width: 400px;
+	padding: 24px;
+	background-color: #f8f8f8;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 24px;
+	border-radius: 24px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	gap: 4px;
+}
+
+textarea {
+	padding: 4px 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.counter {
+	font-size: 0.875rem;
+	color: #888888;
+	text-align: end;
+}
