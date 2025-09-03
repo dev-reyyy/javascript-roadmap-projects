@@ -20,69 +20,56 @@ Each project has its own folder containing:
 - `script.js`
 - `README.md` (project overview, concepts, learning notes)
 
-Example:
-javascript-roadmap-projects/
-│
-├── 01-counter-app/
-│ ├── index.html
-│ ├── style.css
-│ ├── script.js
-│ └── README.md
-│
-├── 02-digital-clock/
-│ ├── index.html
-│ ├── style.css
-│ ├── script.js
-│ └── README.md
-│
-└── ...
-
 ## 📌 Project List
 
 ### Stage 1 – Fundamentals
 
-1. [Counter App](./01-counter-app)
-2. [Digital Clock](./02-digital-clock)
-3. [Temperature Converter](./03-temperature-converter)
-4. [Palindrome Checker](./04-palindrome-checker)
-5. [Rock-Paper-Scissors](./05-rock-paper-scissors)
-6. [Tip Calculator](./06-tip-calculator)
+1. [Hello World Button](./01-hello-world-button)
+2. [Background Color Changer](./02-background-color-changer)
+3. [Counter App](./03-counter-app)
+4. [Simple Calculator](./04-simple-calculator)
+5. [Palindrome Checker](./05-palindrome-checker)
+6. [Character Counter](./06-character-counter)
+7. [Digital Clock](./07-digital-clock)
+8. [Temperature Converter](./08-temperature-converter)
+9. [Rock-Paper-Scissors](./09-rock-paper-scissors)
+10. [Tip Calculator](./10-tip-calculator)
 
 ### Stage 2 – DOM Manipulation
 
-7. [To-Do List](./07-todo-list)
-8. [Password Strength Checker](./08-password-strength-checker)
-9. [Image Slider](./09-image-slider)
-10. [Accordion Menu](./10-accordion-menu)
-11. [Modal Popup](./11-modal-popup)
-12. [Tabs Component](./12-tabs-component)
-13. [Stopwatch/Timer](./13-stopwatch)
-14. [Form Validation](./14-form-validation)
+11. [To-Do List](./11-todo-list)
+12. [Password Strength Checker](./12-password-strength-checker)
+13. [Image Slider](./13-image-slider)
+14. [Accordion Menu](./14-accordion-menu)
+15. [Modal Popup](./15-modal-popup)
+16. [Tabs Component](./16-tabs-component)
+17. [Stopwatch/Timer](./17-stopwatch)
+18. [Form Validation](./18-form-validation)
 
 ### Stage 3 – Local Storage & Data Handling
 
-15. [Notes App](./15-notes-app)
-16. [Dark/Light Theme Toggle](./16-theme-toggle)
-17. [Expense Tracker](./17-expense-tracker)
-18. [Bookmark Manager](./18-bookmark-manager)
-19. [BMI Calculator](./19-bmi-calculator)
-20. [Quiz App](./20-quiz-app)
+19. [Notes App](./19-notes-app)
+20. [Dark/Light Theme Toggle](./20-theme-toggle)
+21. [Expense Tracker](./21-expense-tracker)
+22. [Bookmark Manager](./22-bookmark-manager)
+23. [BMI Calculator](./23-bmi-calculator)
+24. [Quiz App](./24-quiz-app)
 
 ### Stage 4 – Working with APIs
 
-21. [Random Joke Generator](./21-joke-generator)
-22. [Weather App (API)](./22-weather-app)
-23. [Currency Converter](./23-currency-converter)
-24. [Movie Search App](./24-movie-search)
-25. [GitHub User Finder](./25-github-user-finder)
-26. [News App](./26-news-app)
-27. [Dictionary App](./27-dictionary-app)
+25. [Random Joke Generator](./25-joke-generator)
+26. [Weather App (API)](./26-weather-app)
+27. [Currency Converter](./27-currency-converter)
+28. [Movie Search App](./28-movie-search)
+29. [GitHub User Finder](./29-github-user-finder)
+30. [News App](./30-news-app)
+31. [Dictionary App](./31-dictionary-app)
 
 ### Stage 5 – Advanced Concepts & Framework Prep
 
-28. [Kanban Board](./28-kanban-board)
-29. [E-Commerce Product List](./29-ecommerce-product-list)
-30. [Mini Social Feed App](./30-social-feed)
+32. [Kanban Board](./32-kanban-board)
+33. [E-Commerce Product List](./33-ecommerce-product-list)
+34. [Mini Social Feed App](./34-social-feed)
 
 ---
 
