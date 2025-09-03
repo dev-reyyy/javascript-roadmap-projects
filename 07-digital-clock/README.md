@@ -20,9 +20,12 @@ A simple digital clock app that displays the current time and updates every seco
 
 ## 📚 Learning Notes
 
-- **Struggles:** I struggled with the correct JavaScript syntax to use for updating the clock.
-- **Solution:** I solved it by looking up JavaScript documentation online.
-- **Future Improvements:** I plan to add the current date and maybe a timezone selection feature.
+- **Challenge:**
+  - I struggled with the correct JavaScript syntax to use for updating the clock.
+- **Solution:**
+  - I solved it by looking up JavaScript documentation online.
+- **Future Improvements:**
+  - I plan to add the current date and maybe a timezone selection feature.
 
 ## ▶️ How to Run
 
