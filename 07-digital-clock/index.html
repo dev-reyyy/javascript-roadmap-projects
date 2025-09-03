@@ -9,6 +9,41 @@
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
+		<div class="container flex-col" style="gap: 24px">
+			<div class="flex flex-col items-center">
+				<span>Project 07</span>
+				<h1>Digital Clock</h1>
+			</div>
+			<div class="card">
+				<div class="time-format-container">
+					<div>
+						<input
+							type="radio"
+							class="time-format"
+							name="timeFormat"
+							id="hour12"
+							value="hour12"
+							checked
+						/>
+						<label for="hour12">12 Hours</label>
+					</div>
+					<div>
+						<input
+							type="radio"
+							class="time-format"
+							name="timeFormat"
+							id="hour24"
+							value="hour24"
+						/>
+						<label for="hour24">24 Hours</label>
+					</div>
+				</div>
+				<div class="clock-container">
+					<p class="clock" id="clock">00:00:00 --</p>
+				</div>
+			</div>
+		</div>
+
 		<script src="script.js"></script>
 	</body>
 </html>
