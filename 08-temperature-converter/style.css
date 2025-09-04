@@ -1,0 +1,59 @@
+.card {
+	width: 100%;
+	max-width: 600px; /* keeps it from stretching too wide */
+	padding: 24px;
+	background-color: #f8f8f8;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 16px;
+	border-radius: 24px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	margin: 0 auto; /* center the card */
+}
+
+.fields-container {
+	display: flex;
+	gap: 16px;
+	width: 100%;
+	justify-content: center;
+}
+.equal-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 20px;
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #555;
+}
+
+.input-group {
+	width: 100%;
+	min-width: 150px;
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+.input-group label {
+	font-weight: 600;
+}
+
+input {
+	height: 40px;
+	padding: 4px 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+	.fields-container {
+		flex-direction: column;
+		gap: 0;
+	}
+
+	.equal-container {
+		padding-top: 0;
+	}
+}

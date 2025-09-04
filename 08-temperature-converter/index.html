@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>08 Temperature Converter</title>
+
+		<link rel="stylesheet" href="../shared/css/global.css" />
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="container flex-col" style="gap: 24px">
+			<div class="flex flex-col items-center">
+				<span>Project 08</span>
+				<h1 style="text-align: center">Temperature Converter</h1>
+			</div>
+			<div class="card">
+				<div class="fields-container">
+					<div class="input-group">
+						<label for="celsius">Celsius (C)</label>
+						<input type="number" name="celsius" id="celsius" value="0" />
+					</div>
+
+					<div class="equal-container">
+						<span>=</span>
+					</div>
+
+					<div class="input-group">
+						<label for="fahrenheit">Fahrenheit (F)</label>
+						<input type="number" name="fahrenheit" id="fahrenheit" value="0" />
+					</div>
+
+					<div class="equal-container">
+						<span>=</span>
+					</div>
+
+					<div class="input-group">
+						<label for="kelvin">Kelvin (K)</label>
+						<input type="number" name="kelvin" id="kelvin" value="0" />
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
