@@ -1,6 +1,6 @@
 # JavaScript Roadmap Projects
 
-A collection of **30 JavaScript practice projects** I built to strengthen my core skills before diving into frameworks.  
+A collection of **34 JavaScript practice projects** I built to strengthen my core skills before diving into frameworks.  
 The projects progress from basic DOM manipulation to working with APIs and state management.
 
 ## 🎯 Goals
