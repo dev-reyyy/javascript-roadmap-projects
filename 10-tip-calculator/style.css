@@ -1,0 +1,40 @@
+.card {
+	width: 100%;
+	max-width: 400px;
+	padding: 24px;
+	background-color: #f8f8f8;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 16px;
+	border-radius: 24px;
+	border: 1px solid #e0e0e0;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	margin: 0 auto;
+}
+
+.input-group {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	gap: 4px;
+}
+.input-group label {
+	font-weight: 600;
+}
+
+input {
+	height: 40px;
+	padding: 4px 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+input[readonly] {
+	background-color: #e9ecef;
+}
+input:focus {
+	border-color: #007bff;
+	outline: 0.5px solid #007bff;
+	box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
