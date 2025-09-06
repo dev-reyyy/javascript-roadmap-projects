@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>10 Tip Calculator</title>
+
+		<link rel="stylesheet" href="../shared/css/global.css" />
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="container" style="gap: 24px">
+			<div class="flex flex-col items-center">
+				<span>Project 10</span>
+				<h1>Tip Calculator</h1>
+			</div>
+
+			<div class="card">
+				<div class="input-group">
+					<label for="bill">Bill</label>
+					<input type="number" name="bill" id="bill" />
+				</div>
+
+				<div class="input-group">
+					<label for="tip">Tip (%)</label>
+					<input type="number" name="tip" id="tip" />
+				</div>
+
+				<div class="input-group">
+					<label for="totalTip">Tip Amount</label>
+					<input
+						type="number"
+						name="totalTip"
+						id="totalTip"
+						value="0"
+						readonly
+					/>
+				</div>
+
+				<div class="input-group">
+					<label for="totalAmount">Total Amount</label>
+					<input
+						type="number"
+						name="totalAmount"
+						id="totalAmount"
+						value="0"
+						readonly
+					/>
+				</div>
+			</div>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
